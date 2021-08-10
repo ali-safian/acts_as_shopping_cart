@@ -2,7 +2,6 @@ require "bundler/setup"
 
 require "active_record"
 require "database_cleaner"
-require "money-rails"
 require "rspec"
 
 $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
